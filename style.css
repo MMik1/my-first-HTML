@@ -12,4 +12,15 @@ body{
  color: aqua;
 }
 
+    #IntroContainer{
+        width: 400px;
+        float: left;
+    }   
+    #IntroPicture{
+        float: left;
+    }
+
+    #Test {
+        float: top;
+    }
     
