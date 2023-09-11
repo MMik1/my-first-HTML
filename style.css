@@ -1,5 +1,4 @@
 body{
-    background-color: rgb(255, 0, 204);
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -20,7 +19,36 @@ body{
         float: left;
     }
 
-    #Test {
-        float: top;
+
+    .reset{
+        clear: both;
     }
-    
+
+    #Hobbiescontainer {
+        float: right ;
+        width: 420px;
+    }
+
+   #Heroshot {
+    float: right  ;
+    }
+
+   #Name {
+        float: left;
+    }
+
+
+    .reset{
+        clear: both;
+    }
+
+    #Test {
+        float: left;
+        width: 500px;
+        margin: auto;
+
+        #MainContainer {
+            width: 500px;
+            margin: 0px auto;
+        }
+    }
