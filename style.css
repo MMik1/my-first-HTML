@@ -17,6 +17,8 @@ body{
     }   
     #IntroPicture{
         float: left;
+        width: 100;
+        margin: 0px 0px 0px -90px;
     }
 
 
@@ -25,8 +27,15 @@ body{
     }
 
     #Hobbiescontainer {
-        float: right ;
-        width: 420px;
+        float: left ;
+        width: 400px;
+        margin: 100px 500px 0px 260px;  
+    }
+
+    #Donkey {
+        float: left;
+        width: 50px;
+        margin: 0px 50px 0px 100px;
     }
 
    #Heroshot {
@@ -42,7 +51,7 @@ body{
         clear: both;
     }
 
-    #Test {
+    #x {
         float: left;
         width: 500px;
         margin: auto;
