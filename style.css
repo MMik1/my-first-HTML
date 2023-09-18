@@ -1,7 +1,12 @@
 body{
     margin: 0px;
     font-family: Arial, Helvetica, sans-serif;
-}
+    background-image:linear-gradient(rgba(0, 77, 44, 0.65),rgba(9,0,77,0.65)), url(img/test2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+
+}   
 
 #introText{
     color: #0000FF;
@@ -14,13 +19,13 @@ body{
     #IntroContainer{
         width: 400px;
         float: left;
+        margin: 0px 10px 100px 400px;
     }   
     #IntroPicture{
         float: left;
-        width: 100;
-        margin: 0px 0px 0px -90px;
+        width: 100px;
+        height: 100px;
     }
-
 
     .reset{
         clear: both;
@@ -28,36 +33,57 @@ body{
 
     #Hobbiescontainer {
         float: left ;
-        width: 400px;
-        margin: 100px 500px 0px 260px;  
+        width: 100px;
+        margin: 0px 500px 0px 0px;
     }
 
     #Donkey {
         float: left;
-        width: 50px;
-        margin: 0px 50px 0px 100px;
+        margin: 0px 10px 10px 0px;
     }
 
    #Heroshot {
-    float: right  ;
+    float: left;
+    width: 900px;
+    margin: 0px 0px 0px 20px;
     }
 
    #Name {
         float: left;
     }
 
-
-    .reset{
-        clear: both;
-    }
-
     #x {
         float: left;
         width: 500px;
         margin: auto;
-
-        #MainContainer {
-            width: 500px;
-            margin: 0px auto;
-        }
     }
+    
+    #MainContainer {
+        width: 500px;
+        margin: 0px auto;
+        padding: 20px 0px 0px 0px;
+    }
+
+    #instagram{
+        margin: 0px 0px 350px 0px;
+    }
+    #youtube{
+        position: absolute;
+        left: 100px;
+    }
+    #dc{
+        margin: 0px 0px 350px 350px;
+    }
+
+    #paddingtest{
+        width: 300px;
+        height: 300px;
+        background-color: aquamarine;
+        padding: 10px;
+    }
+
+    #navigation{
+        padding: 10px;
+        background-color: #0000FF
+    }
+    
