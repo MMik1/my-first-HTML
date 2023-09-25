@@ -68,7 +68,6 @@ body{
         margin: 0px 0px 350px 0px;
     }
     #youtube{
-        position: absolute;
         left: 100px;
     }
     #dc{
@@ -83,7 +82,19 @@ body{
     }
 
     #navigation{
-        padding: 10px;
-        background-color: #0000FF
+        height: 10px;
+        margin: 0px 0px 30px 0px;
     }
+    #navigation a:hover{
+        color: aqua;
+    }
+
+    #navigation a{
+        padding: 10px;
+        background-color: #0000FF;
+        color: white;
+        text-decoration: none;
+        border-radius:  7px;
+    }
+    
     
